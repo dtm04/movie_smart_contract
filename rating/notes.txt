@@ -1,0 +1,13 @@
+Save the contract address!
+    - can be found in console after 'truffle migrate'
+or
+    - truffle console ---> Rating.address
+    - JSON.stringify(Rating.abi)
+
+    once you have the address and the abi then you can export the contract
+    editing the web3js config file is the most important step.
+    provides interface between user and console.
+
+Start:
+    1. ganache-cli -m "response mixed case chapter afraid quantum found electric patrol cancel match loop"
+    2. npm start (ui)
